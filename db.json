@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "email": "tim1234543210@mail.ru",
+      "password": "$2a$10$a83H9AfZXtEG.JEpCRECOeavBGkzoDldUNBkZTuhzr53ZgbKFhbOO",
+      "name": "Tim Tim",
+      "phone": "5434345345",
+      "id": 1
+    }
+  ]
+}

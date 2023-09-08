@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.home {
+    position: relative;
+}
+
+.moneyBlock {
+    background-color: #25c584;
+    padding: 20px;
+    margin: 20px 0;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.money {
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    transition: 10s ease;
+}
+
+.money > div {
+    justify-content: center;
+    align-items: center;
+}
+.money > div:before{
+    content: '$ ';
+    margin-right: 5px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.cardImg {
+    object-fit: cover;
+    width: 100%;
+}
+
+.cardTitle {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cardPrice {
+    font-size: 18px;
+    font-weight: 700;
+    color: #31c486;
+}
+
+.cardAction {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 35px;
+    justify-items: center;
+
+    width: 100%;
+}
+
+.cardInput {
+    width: 90px;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6;
+}
+
+.cardInput::placeholder {
+    text-align: center;
+}
+
+.cardBtnGreen {
+    background-color: #27c67f;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.cardBtnRed {
+    background-color: #f1f2f6;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d6d6d6;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.total {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.totalTitle {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.totalSum {
+    color: #24c486;
+    font-size: 28px;
+    font-weight: 700;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.listItem {
+    display: grid;
+    grid-template-columns: 300px repeat(2, 150px);
+    gap: 50px;
+    line-height: 30px;
+}
+
+.titleCount {
+    font-size: 22px;
+
+}
+
+.sumItem {
+    color: #25c584;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.hr {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.totalRow {
+    display: flex;
+    justify-content: space-between;
+    max-width: 670px;
+    margin: 0 auto;
+}
+
+.totalText {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.totalPrice {
+    color: #25c584;
+    font-size: 28px;
+    font-weight: 700;
+}
